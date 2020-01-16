@@ -4,9 +4,8 @@
   "description": "Guided project for **Node API** module 4.",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
-    "start": "node index.js"
-  },
+    "start": "node server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/node-api4-guided.git"
@@ -18,11 +17,7 @@
   },
   "homepage": "https://github.com/LambdaSchool/node-api4-guided#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "expresss": "0.0.0",
-    "helmet": "^3.21.2",
-    "knex": "^0.20.8",
-    "sqlite3": "^4.1.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
